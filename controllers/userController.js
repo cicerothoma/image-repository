@@ -89,9 +89,7 @@ exports.updateProfile = catchAsync(async (req, res, next) => {
     req.body,
     "profileImage",
     "name",
-    "username",
     "dateOfBirth",
-    "bio",
     "phone"
   );
   if (req.body.profileImage) {
